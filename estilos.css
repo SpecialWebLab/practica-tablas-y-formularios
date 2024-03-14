@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.tabla{
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.registro{
+    text-align: center;
+}
+.paises{
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    
+}
+label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.bold{
+    font-weight: bold;
+}
